@@ -1,0 +1,261 @@
+/*
+ * A clear convex lens shared by the site's action controls.
+ * Reflections belong to background layers only; text, SVGs and hit areas stay
+ * undistorted. No continuous animation or displacement filter is used.
+ */
+.fisheye-glass,
+.btn.fisheye-glass,
+.hero-actions .btn.fisheye-glass,
+#servicos .service-cta.fisheye-glass,
+.floating-whatsapp.fisheye-glass,
+.site-header .menu-toggle.fisheye-glass,
+.site-header .mobile-nav .mobile-contact.btn.fisheye-glass,
+.premium-map .leaflet-control-zoom a.fisheye-glass {
+  --lens-surface: rgba(255, 255, 255, .035);
+  --lens-rim: rgba(255, 255, 255, .24);
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid var(--lens-rim);
+  border-radius: 999px;
+  color: #fff;
+  background-color: var(--lens-surface);
+  background-image:
+    radial-gradient(ellipse at 18% -12%, rgba(255, 255, 255, .075), transparent 48%),
+    radial-gradient(ellipse at 98% 118%, rgba(255, 255, 255, .045), transparent 36%);
+  backdrop-filter: blur(3px) saturate(1.02);
+  -webkit-backdrop-filter: blur(3px) saturate(1.02);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, .25),
+    inset 1px 0 1px rgba(255, 255, 255, .08),
+    inset -1px 0 1px rgba(255, 255, 255, .11),
+    inset 0 -1px 2px rgba(0, 0, 0, .08),
+    0 4px 14px rgba(0, 0, 0, .16);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, .35);
+  transition:
+    transform 320ms cubic-bezier(.22, 1, .36, 1),
+    background-color 320ms ease,
+    border-color 320ms ease,
+    box-shadow 320ms ease;
+}
+
+/* Positioned controls retain their own layout rules (e.g. fixed WhatsApp). */
+.btn.fisheye-glass,
+.service-cta.fisheye-glass,
+.footer-whatsapp.fisheye-glass,
+.footer-route.fisheye-glass,
+.text-link.fisheye-glass,
+.back-to-top.fisheye-glass,
+.premium-map-popup-route.fisheye-glass,
+.premium-map .leaflet-control-zoom a.fisheye-glass {
+  position: relative;
+}
+
+/* Leaflet's two zoom controls stay joined inside their existing rounded frame. */
+.premium-map .leaflet-control-zoom a.fisheye-glass {
+  border: 0;
+  border-radius: 0;
+}
+.premium-map .leaflet-control-zoom a.fisheye-glass:first-child {
+  border-radius: 13px 13px 0 0;
+}
+.premium-map .leaflet-control-zoom a.fisheye-glass:last-child {
+  border-radius: 0 0 13px 13px;
+}
+.premium-map .leaflet-control-zoom a.fisheye-glass + a.fisheye-glass {
+  border-top: 1px solid rgba(255, 255, 255, .2);
+}
+
+.fisheye-glass::before,
+.fisheye-glass::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+  border-radius: inherit;
+}
+
+/* Light gathers at the perimeter while the center remains almost untinted. */
+.fisheye-glass::before {
+  inset: 1px;
+  background:
+    radial-gradient(ellipse at 0% 48%, rgba(255, 255, 255, .15), transparent 12%),
+    radial-gradient(ellipse at 100% 58%, rgba(255, 255, 255, .12), transparent 13%),
+    radial-gradient(ellipse at 50% 120%, rgba(255, 255, 255, .035), transparent 44%);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, .11),
+    inset 0 -1px 0 rgba(255, 255, 255, .09);
+}
+
+/* The soft upper arc moves a few pixels on interaction, never over the text. */
+.fisheye-glass::after {
+  top: 2px;
+  right: 9%;
+  bottom: 46%;
+  left: 9%;
+  border-radius: 50% 50% 46% 46% / 80% 80% 35% 35%;
+  background: radial-gradient(ellipse at 42% -18%, rgba(255, 255, 255, .16), rgba(255, 255, 255, .015) 54%, transparent 72%);
+  opacity: .72;
+  transform: translateX(-3px);
+  transition: transform 350ms cubic-bezier(.22, 1, .36, 1), opacity 350ms ease;
+}
+
+.fisheye-glass svg {
+  color: currentColor;
+  filter: none;
+}
+
+#servicos .service-cta.fisheye-glass {
+  padding-inline: 12px;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* Circular lens: stronger edge curvature, unchanged fixed position and size. */
+.floating-whatsapp.fisheye-glass,
+.fisheye-glass--floating {
+  --lens-surface: rgba(255, 255, 255, .045);
+  overflow: visible;
+  border-radius: 50%;
+  background-image:
+    radial-gradient(circle at 25% 8%, rgba(255, 255, 255, .11), transparent 36%),
+    radial-gradient(circle at 88% 95%, rgba(255, 255, 255, .075), transparent 31%),
+    radial-gradient(circle at 50% 50%, transparent 64%, rgba(255, 255, 255, .055) 100%);
+  box-shadow:
+    inset 0 1px 2px rgba(255, 255, 255, .32),
+    inset 1px 0 2px rgba(255, 255, 255, .14),
+    inset -1px -1px 2px rgba(255, 255, 255, .09),
+    inset 0 -2px 3px rgba(0, 0, 0, .07),
+    0 5px 18px rgba(0, 0, 0, .24);
+}
+
+.fisheye-glass--floating::before {
+  background:
+    radial-gradient(ellipse at 0% 45%, rgba(255, 255, 255, .18), transparent 17%),
+    radial-gradient(ellipse at 100% 58%, rgba(255, 255, 255, .15), transparent 18%);
+}
+
+.fisheye-glass--floating::after {
+  top: 4%;
+  right: 13%;
+  bottom: 47%;
+  left: 13%;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .fisheye-glass:hover,
+  .btn.fisheye-glass:hover,
+  .hero-actions .btn.fisheye-glass:hover,
+  #servicos .service-cta.fisheye-glass:hover,
+  .floating-whatsapp.fisheye-glass:hover,
+  .site-header .menu-toggle.fisheye-glass:hover,
+  .site-header .mobile-nav .mobile-contact.btn.fisheye-glass:hover,
+  .premium-map .leaflet-control-zoom a.fisheye-glass:hover {
+    background-color: rgba(255, 255, 255, .06);
+    border-color: rgba(255, 255, 255, .36);
+    transform: scale(1.025);
+    box-shadow:
+      inset 0 1px 2px rgba(255, 255, 255, .32),
+      inset 1px 0 1px rgba(255, 255, 255, .12),
+      inset -1px -1px 2px rgba(255, 255, 255, .1),
+      inset 0 -1px 2px rgba(0, 0, 0, .07),
+      0 6px 18px rgba(0, 0, 0, .2);
+  }
+
+  .fisheye-glass:hover::after {
+    transform: translateX(3px);
+    opacity: 1;
+  }
+
+  /* Legacy hero/red rules use background shorthand; keep the lens layers. */
+  .hero-actions .btn.fisheye-glass:hover,
+  .floating-whatsapp.fisheye-glass:hover {
+    background-image:
+      radial-gradient(ellipse at 18% -12%, rgba(255, 255, 255, .075), transparent 48%),
+      radial-gradient(ellipse at 98% 118%, rgba(255, 255, 255, .045), transparent 36%);
+  }
+
+  .floating-whatsapp.fisheye-glass:hover {
+    background-image:
+      radial-gradient(circle at 25% 8%, rgba(255, 255, 255, .11), transparent 36%),
+      radial-gradient(circle at 88% 95%, rgba(255, 255, 255, .075), transparent 31%),
+      radial-gradient(circle at 50% 50%, transparent 64%, rgba(255, 255, 255, .055) 100%);
+  }
+}
+
+.fisheye-glass:active,
+.btn.fisheye-glass:active,
+.hero-actions .btn.fisheye-glass:active,
+#servicos .service-cta.fisheye-glass:active,
+.floating-whatsapp.fisheye-glass:active,
+.site-header .menu-toggle.fisheye-glass:active,
+.site-header .mobile-nav .mobile-contact.btn.fisheye-glass:active,
+.premium-map .leaflet-control-zoom a.fisheye-glass:active {
+  background-color: rgba(255, 255, 255, .025);
+  transform: scale(.98);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, .16),
+    inset 0 2px 3px rgba(0, 0, 0, .08),
+    0 2px 8px rgba(0, 0, 0, .16);
+}
+
+
+/* Restore the approved 12px menu frame and stable icon position. The three
+   aerodynamic paths and their opening transforms remain in styles.css. */
+.site-header .menu-toggle.fisheye-glass,
+.site-header .menu-toggle.fisheye-glass:hover,
+.site-header .menu-toggle.fisheye-glass:active {
+  border-radius: 12px;
+  transform: none;
+}
+
+.fisheye-glass:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, .88);
+  outline-offset: 4px;
+}
+
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .fisheye-glass,
+  .btn.fisheye-glass,
+  .hero-actions .btn.fisheye-glass,
+  #servicos .service-cta.fisheye-glass,
+  .floating-whatsapp.fisheye-glass,
+  .site-header .menu-toggle.fisheye-glass,
+  .site-header .mobile-nav .mobile-contact.btn.fisheye-glass,
+  .premium-map .leaflet-control-zoom a.fisheye-glass {
+    background-color: rgba(255, 255, 255, .05);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fisheye-glass,
+  .btn.fisheye-glass,
+  .hero-actions .btn.fisheye-glass,
+  #servicos .service-cta.fisheye-glass,
+  .floating-whatsapp.fisheye-glass,
+  .fisheye-glass:hover,
+  .btn.fisheye-glass:hover,
+  .hero-actions .btn.fisheye-glass:hover,
+  #servicos .service-cta.fisheye-glass:hover,
+  .floating-whatsapp.fisheye-glass:hover,
+  .fisheye-glass:active,
+  .btn.fisheye-glass:active,
+  .hero-actions .btn.fisheye-glass:active,
+  #servicos .service-cta.fisheye-glass:active,
+  .floating-whatsapp.fisheye-glass:active,
+  .site-header .menu-toggle.fisheye-glass,
+  .site-header .mobile-nav .mobile-contact.btn.fisheye-glass,
+  .premium-map .leaflet-control-zoom a.fisheye-glass,
+  .site-header .menu-toggle.fisheye-glass:hover,
+  .site-header .mobile-nav .mobile-contact.btn.fisheye-glass:hover,
+  .premium-map .leaflet-control-zoom a.fisheye-glass:hover,
+  .site-header .menu-toggle.fisheye-glass:active,
+  .site-header .mobile-nav .mobile-contact.btn.fisheye-glass:active,
+  .premium-map .leaflet-control-zoom a.fisheye-glass:active,
+  .fisheye-glass::before,
+  .fisheye-glass::after,
+  .fisheye-glass:hover::after {
+    transition: none;
+    transform: none;
+    animation: none;
+  }
+}

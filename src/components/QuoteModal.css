@@ -1,0 +1,40 @@
+/* Portal + native top layer: independent from every carousel and transform. */
+dialog.quote-dialog[open] {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(var(--quote-viewport-height, 100svh) - 48px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  overflow: hidden;
+  overscroll-behavior: none;
+  transform: none;
+}
+.quote-dialog .quote-dialog-scroll {
+  min-height: 0;
+  padding: 35px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: auto;
+  scroll-padding-block: 64px 12px;
+  touch-action: pan-y;
+}
+.quote-dialog .modal-close {
+  position: absolute;
+  z-index: 3;
+  top: 22px;
+  right: 22px;
+}
+@media (max-width: 767px) {
+  dialog.quote-dialog[open] {
+    top: max(12px, env(safe-area-inset-top));
+    bottom: auto;
+    margin: 0 auto;
+    max-height: calc(var(--quote-viewport-height, 100svh) - 24px - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+  }
+  .quote-dialog .quote-dialog-scroll { padding: 28px 22px; }
+  .quote-dialog .modal-close { top: 16px; right: 16px; }
+}

@@ -1,0 +1,127 @@
+/* Isolate the negative decoration without changing any fixed control's anchor. */
+#root { isolation: isolate; }
+
+.garage-animated-background {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  pointer-events: none;
+  user-select: none;
+  contain: strict;
+  isolation: isolate;
+  background: #080808;
+}
+.garage-studio-depth, .garage-studio-reflections { position: absolute; inset: -5%; pointer-events: none; }
+.garage-studio-depth--near { transform: translate3d(0, var(--studio-scroll-near, 0px), 0); }
+.garage-studio-depth--far { transform: translate3d(0, var(--studio-scroll-far, 0px), 0); }
+.garage-studio-reflections { transform: translate3d(0, var(--studio-scroll-light, 0px), 0); }
+.garage-studio-layer { position: absolute; pointer-events: none; animation-play-state: paused; }
+.garage-studio-atmosphere--near {
+  inset: 0;
+  background: radial-gradient(ellipse 42% 28% at 19% 35%, #242424c4, #19191994 38%, transparent 76%), radial-gradient(ellipse 35% 33% at 81% 79%, #191919c4, transparent 75%);
+  animation: garage-studio-depth-near 38s cubic-bezier(.45, 0, .55, 1) infinite, garage-studio-breath 19s ease-in-out infinite;
+  animation-delay: -11s, -6s;
+  opacity: .76;
+}
+.garage-studio-atmosphere--far {
+  inset: 0;
+  background: radial-gradient(ellipse 47% 35% at 73% 23%, #24242494, #0b0b0b99 46%, transparent 77%), radial-gradient(ellipse 37% 28% at 12% 88%, #24242494, transparent 77%);
+  animation: garage-studio-depth-far 33s cubic-bezier(.45, 0, .55, 1) infinite;
+  animation-delay: -19s;
+  opacity: .5;
+}
+.garage-studio-red--primary, .garage-studio-red--secondary {
+  background: radial-gradient(ellipse at center, #e65c1a99, #e65c1a21 28%, transparent 72%);
+  background: radial-gradient(ellipse at center, color-mix(in srgb, var(--red, #E65C1A) 60%, transparent), color-mix(in srgb, var(--red, #E65C1A) 13%, transparent) 28%, transparent 72%);
+  transform-origin: center;
+}
+.garage-studio-red--primary {
+  width: min(1100px, 120vw);
+  height: clamp(90px, 17vh, 180px);
+  left: -18%; top: 48%;
+  opacity: .28;
+  animation: garage-studio-red-primary 27s cubic-bezier(.45, 0, .55, 1) infinite;
+  animation-delay: -9s;
+}
+.garage-studio-red--secondary {
+  width: min(820px, 94vw);
+  height: clamp(60px, 12vh, 130px);
+  left: 57%; top: 71%;
+  opacity: .19;
+  animation: garage-studio-red-secondary 23s cubic-bezier(.45, 0, .55, 1) infinite;
+  animation-delay: -17s;
+}
+.garage-studio-metal--primary, .garage-studio-metal--secondary {
+  background: radial-gradient(ellipse at center, #f5f5f599, #f5f5f529 24%, transparent 70%);
+  transform-origin: center;
+}
+.garage-studio-metal--primary {
+  width: min(1100px, 112vw); height: clamp(36px, 6vh, 64px);
+  left: 16%; top: 28%;
+  opacity: .25;
+  animation: garage-studio-metal-primary 34s cubic-bezier(.45, 0, .55, 1) infinite;
+  animation-delay: -14s;
+}
+.garage-studio-metal--secondary {
+  width: min(850px, 95vw); height: clamp(24px, 4vh, 44px);
+  left: -18%; top: 85%;
+  opacity: .17;
+  animation: garage-studio-metal-secondary 29s cubic-bezier(.45, 0, .55, 1) infinite;
+  animation-delay: -5s;
+}
+.garage-animated-background .garage-studio-layer { animation-play-state: paused; }
+.garage-animated-background[data-motion="running"] .garage-studio-layer { animation-play-state: running; will-change: transform, opacity; }
+.garage-animated-background[data-motion="reduced"] .garage-studio-layer { animation: none; transform: none; }
+
+/* Only section backplates are opened; photographs, glass and maps stay intact. */
+#root .services-section, #root .comparison-section, #root .location-section, #root .site-footer { background: transparent; }
+
+@keyframes garage-studio-depth-near {
+  0%, 100% { transform: translate3d(-42px, 18px, 0); }
+  47% { transform: translate3d(48px, -24px, 0); }
+}
+@keyframes garage-studio-depth-far {
+  0%, 100% { transform: translate3d(36px, -27px, 0); }
+  56% { transform: translate3d(-55px, 33px, 0); }
+}
+@keyframes garage-studio-breath {
+  0%, 100% { opacity: .68; }
+  43% { opacity: .88; }
+}
+@keyframes garage-studio-red-primary {
+  0%, 100% { transform: translate3d(-13vw, 6vh, 0) rotate(-24deg); opacity: .22; }
+  46% { transform: translate3d(20vw, -7vh, 0) rotate(-22deg); opacity: .34; }
+  73% { transform: translate3d(5vw, 1vh, 0) rotate(-23deg); opacity: .28; }
+}
+@keyframes garage-studio-red-secondary {
+  0%, 100% { transform: translate3d(12vw, -4vh, 0) rotate(-19deg); opacity: .14; }
+  54% { transform: translate3d(-16vw, 7vh, 0) rotate(-21deg); opacity: .24; }
+}
+@keyframes garage-studio-metal-primary {
+  0%, 100% { transform: translate3d(-15vw, 5vh, 0) rotate(-18deg); opacity: .18; }
+  39% { transform: translate3d(19vw, -6vh, 0) rotate(-20deg); opacity: .32; }
+  71% { transform: translate3d(2vw, 1vh, 0) rotate(-19deg); opacity: .25; }
+}
+@keyframes garage-studio-metal-secondary {
+  0%, 100% { transform: translate3d(-7vw, -5vh, 0) rotate(-16deg); opacity: .12; }
+  59% { transform: translate3d(22vw, 5vh, 0) rotate(-18deg); opacity: .23; }
+}
+
+@media (max-width: 767px) {
+  .garage-studio-reflections { opacity: .95; }
+  .garage-studio-depth { opacity: .9; }
+}
+.garage-animated-background[data-quality="light"] .garage-studio-depth--far,
+.garage-animated-background[data-quality="light"] .garage-studio-red--secondary,
+.garage-animated-background[data-quality="light"] .garage-studio-metal--secondary { display: none; }
+/* Fewer layers save work; surviving lights retain their visible contrast. */
+.garage-animated-background[data-quality="light"] .garage-studio-reflections { opacity: .95; transform: none; }
+.garage-animated-background[data-quality="light"] .garage-studio-depth { opacity: .8; transform: none; }
+.garage-animated-background[data-quality="light"] .garage-studio-atmosphere--near { animation-duration: 40s, 23s; }
+.garage-animated-background[data-quality="light"] .garage-studio-red--primary { animation-duration: 30s; }
+.garage-animated-background[data-quality="light"] .garage-studio-metal--primary { animation-duration: 35s; }
+@media (prefers-reduced-motion: reduce) {
+  .garage-animated-background .garage-studio-layer { animation: none; transform: none; will-change: auto; }
+  .garage-animated-background .garage-studio-depth, .garage-animated-background .garage-studio-reflections { transform: none; }
+}

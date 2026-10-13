@@ -1,0 +1,2056 @@
+[
+  {
+    "id": "v-floc",
+    "name": "V-Floc",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "v-floc-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/v-floc-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 2,
+        "imageMethod": "original"
+      },
+      {
+        "id": "v-floc-5-l",
+        "label": "5 L",
+        "image": "/images/products/v-floc-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 5,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "sintra-fast",
+    "name": "Sintra Fast",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "sintra-fast-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/sintra-fast-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 2,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "step-1",
+    "name": "Step 1",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "step-1-preparador-de-superficie",
+        "label": "Preparador de superfície",
+        "image": "/images/products/step-1-preparador-de-superficie.webp",
+        "status": "catalog",
+        "sourcePage": 2,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "melt",
+    "name": "Melt",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "melt-multissuperficies",
+        "label": "Multissuperfícies",
+        "image": "/images/products/melt-multissuperficies.webp",
+        "status": "catalog",
+        "sourcePage": 2,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "mult-clean",
+    "name": "Mult Clean",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "mult-clean-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/mult-clean-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 2,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "intense",
+    "name": "Intense",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "intense-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/intense-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 2,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "native-spray-wax",
+    "name": "Native Spray Wax",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "native-spray-wax-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/native-spray-wax-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 2,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "prizm",
+    "name": "Prizm",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "prizm-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/prizm-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 2,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "verniz-de-motor",
+    "name": "Verniz de motor",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "verniz-de-motor-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/verniz-de-motor-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 2,
+        "imageMethod": "original"
+      },
+      {
+        "id": "verniz-de-motor-1-5-l",
+        "label": "1,5 L",
+        "image": "/images/products/verniz-de-motor-1-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 4,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "restaurax",
+    "name": "Restaurax",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "restaurax-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/restaurax-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 3,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "soult-fast",
+    "name": "Soult Fast",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "soult-fast-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/soult-fast-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 3,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "strike",
+    "name": "Strike",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "strike-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/strike-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 3,
+        "imageMethod": "original"
+      },
+      {
+        "id": "strike-1-5-l",
+        "label": "1,5 L",
+        "image": "/images/products/strike-1-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 5,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "hidracouro",
+    "name": "Hidracouro",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "hidracouro-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/hidracouro-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 3,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "octo-shield",
+    "name": "Octo Shield",
+    "category": "Pneus e borrachas",
+    "variants": [
+      {
+        "id": "octo-shield-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/octo-shield-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 3,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "power-pig",
+    "name": "Power Pig",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "power-pig-1-l",
+        "label": "1 L",
+        "image": "/images/products/power-pig-1-l.webp",
+        "status": "catalog",
+        "sourcePage": 3,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "eco-cleaner",
+    "name": "Eco Cleaner",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "eco-cleaner-1-l",
+        "label": "1 L",
+        "image": "/images/products/eco-cleaner-1-l.webp",
+        "status": "catalog",
+        "sourcePage": 3,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "sanitizante-vintex",
+    "name": "Sanitizante Vintex",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "sanitizante-vintex-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/sanitizante-vintex-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 3,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "revoke-nitro",
+    "name": "Revoke Nitro",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "revoke-nitro-1-5-l",
+        "label": "1,5 L",
+        "image": "/images/products/revoke-nitro-1-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 3,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "gel-car-sport-nobrecar",
+    "name": "Gel Car Sport Nobrecar",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "gel-car-sport-nobrecar-1-kg",
+        "label": "1 kg",
+        "image": "/images/products/gel-car-sport-nobrecar-1-kg.webp",
+        "status": "catalog",
+        "sourcePage": 4,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "soft-pig",
+    "name": "Soft Pig",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "soft-pig-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/soft-pig-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 4,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "shark-glass",
+    "name": "Shark Glass",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "shark-glass-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/shark-glass-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 4,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "goodzilla",
+    "name": "Goodzilla",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "goodzilla-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/goodzilla-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 4,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "higicouro",
+    "name": "Higicouro",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "higicouro-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/higicouro-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 4,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "alumax",
+    "name": "Alumax",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "alumax-5-l",
+        "label": "5 L",
+        "image": "/images/products/alumax-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 4,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "delet",
+    "name": "Delet",
+    "category": "Pneus e borrachas",
+    "variants": [
+      {
+        "id": "delet-5-l",
+        "label": "5 L",
+        "image": "/images/products/delet-5-l.webp",
+        "status": "restock",
+        "sourcePage": 4,
+        "imageMethod": "original"
+      },
+      {
+        "id": "delet-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/delet-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 9,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "sintra-pro",
+    "name": "Sintra Pro",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "sintra-pro-5-l",
+        "label": "5 L",
+        "image": "/images/products/sintra-pro-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 4,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "tryon",
+    "name": "Tryon",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "tryon-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/tryon-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 5,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "glazy",
+    "name": "Glazy",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "glazy-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/glazy-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 5,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "izer",
+    "name": "Izer",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "izer-3-l",
+        "label": "3 L",
+        "image": "/images/products/izer-3-l.webp",
+        "status": "catalog",
+        "sourcePage": 5,
+        "imageMethod": "original"
+      },
+      {
+        "id": "izer-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/izer-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 6,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "v-mol",
+    "name": "V-Mol",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "v-mol-5-l",
+        "label": "5 L",
+        "image": "/images/products/v-mol-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 5,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "impact",
+    "name": "Impact",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "impact-1-5-l",
+        "label": "1,5 L",
+        "image": "/images/products/impact-1-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 5,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "verom",
+    "name": "Verom",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "verom-1-5-l",
+        "label": "1,5 L",
+        "image": "/images/products/verom-1-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 5,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "revelax",
+    "name": "Revelax",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "revelax-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/revelax-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 5,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "shampoo-extra-gold",
+    "name": "Shampoo Extra Gold",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "shampoo-extra-gold-para-carros-vitrificados",
+        "label": "Para carros vitrificados",
+        "image": "/images/products/shampoo-extra-gold-para-carros-vitrificados.webp",
+        "status": "catalog",
+        "sourcePage": 6,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "sanitizante-finalizador",
+    "name": "Sanitizante finalizador",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "sanitizante-finalizador-1-5-l",
+        "label": "1,5 L",
+        "image": "/images/products/sanitizante-finalizador-1-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 6,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "nevasca-cadillac",
+    "name": "Nevasca Cadillac",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "nevasca-cadillac-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/nevasca-cadillac-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 6,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "demolidor-cadillac",
+    "name": "Demolidor Cadillac",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "demolidor-cadillac-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/demolidor-cadillac-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 6,
+        "imageMethod": "original"
+      },
+      {
+        "id": "demolidor-cadillac-1-5-l",
+        "label": "1,5 L",
+        "image": "/images/products/demolidor-cadillac-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 6,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "ht7-nitro",
+    "name": "HT7 Nitro",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "ht7-nitro-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/ht7-nitro-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 6,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "limpa-vidros-cadillac",
+    "name": "Limpa-vidros Cadillac",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "limpa-vidros-cadillac-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/limpa-vidros-cadillac-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 6,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "lava-autos",
+    "name": "Lava Autos",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "lava-autos-5-l",
+        "label": "5 L",
+        "image": "/images/products/lava-autos-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 6,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "removex",
+    "name": "Removex",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "removex-5-l",
+        "label": "5 L",
+        "image": "/images/products/removex-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 6,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "speel-car-nitro",
+    "name": "Speel Car Nitro",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "speel-car-nitro-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/speel-car-nitro-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 7,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "venon",
+    "name": "Venon",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "venon-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/venon-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 7,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "glass-pro",
+    "name": "Glass Pro",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "glass-pro-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/glass-pro-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 7,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "acitrox-nitrox",
+    "name": "Acitrox Nitrox",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "acitrox-nitrox-5-l",
+        "label": "5 L",
+        "image": "/images/products/acitrox-nitrox-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 7,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "acidus-pro",
+    "name": "Acidus Pro",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "acidus-pro-1-5-l",
+        "label": "1,5 L",
+        "image": "/images/products/acidus-pro-1-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 7,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "bactran",
+    "name": "Bactran",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "bactran-1-5-l",
+        "label": "1,5 L",
+        "image": "/images/products/bactran-1-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 7,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "glazy-ant-fog",
+    "name": "Glazy Ant-Fog",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "glazy-ant-fog-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/glazy-ant-fog-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 7,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "ox-pro-nitro",
+    "name": "OX Pro Nitro",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "ox-pro-nitro-1-5-l",
+        "label": "1,5 L",
+        "image": "/images/products/ox-pro-nitro-1-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 7,
+        "imageMethod": "original"
+      },
+      {
+        "id": "ox-pro-nitro-5-l",
+        "label": "5 L",
+        "image": "/images/products/ox-pro-nitro-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 8,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "rejuvex",
+    "name": "Rejuvex",
+    "category": "Limpeza, descontaminação e conservação",
+    "variants": [
+      {
+        "id": "rejuvex-400-g",
+        "label": "400 g",
+        "image": "/images/products/rejuvex-400-g.webp",
+        "status": "catalog",
+        "sourcePage": 7,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "super-pretinho-nobrecar",
+    "name": "Super Pretinho Nobrecar",
+    "category": "Pneus e borrachas",
+    "variants": [
+      {
+        "id": "super-pretinho-nobrecar-1-l",
+        "label": "1 L",
+        "image": "/images/products/super-pretinho-nobrecar-1-l.webp",
+        "status": "catalog",
+        "sourcePage": 9,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "shiny",
+    "name": "Shiny",
+    "category": "Pneus e borrachas",
+    "variants": [
+      {
+        "id": "shiny-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/shiny-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 9,
+        "imageMethod": "original"
+      },
+      {
+        "id": "shiny-1-5-l",
+        "label": "1,5 L",
+        "image": "/images/products/shiny-1-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 9,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "dub-tire-brush",
+    "name": "Dub Tire Brush",
+    "category": "Pneus e borrachas",
+    "variants": [
+      {
+        "id": "dub-tire-brush-aplicador-de-pneus",
+        "label": "Aplicador de pneus",
+        "image": "/images/products/dub-tire-brush-aplicador-de-pneus.webp",
+        "status": "catalog",
+        "sourcePage": 9,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "the-good-shine",
+    "name": "The Good Shine",
+    "category": "Pneus e borrachas",
+    "variants": [
+      {
+        "id": "the-good-shine-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/the-good-shine-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 9,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "black-magic",
+    "name": "Black Magic",
+    "category": "Pneus e borrachas",
+    "variants": [
+      {
+        "id": "black-magic-150-ml",
+        "label": "150 ml",
+        "image": "/images/products/black-magic-150-ml.webp",
+        "status": "catalog",
+        "sourcePage": 9,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "pneu-pretinho",
+    "name": "Pneu Pretinho",
+    "category": "Pneus e borrachas",
+    "variants": [
+      {
+        "id": "pneu-pretinho-5-l",
+        "label": "5 L",
+        "image": "/images/products/pneu-pretinho-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 9,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "black-magic-revitalizador",
+    "name": "Black Magic revitalizador",
+    "category": "Pneus e borrachas",
+    "variants": [
+      {
+        "id": "black-magic-revitalizador-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/black-magic-revitalizador-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 10,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "darker",
+    "name": "Darker",
+    "category": "Pneus e borrachas",
+    "variants": [
+      {
+        "id": "darker-1-5-l",
+        "label": "1,5 L",
+        "image": "/images/products/darker-1-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 10,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "rubber-pro-nitro",
+    "name": "Rubber Pro Nitro",
+    "category": "Pneus e borrachas",
+    "variants": [
+      {
+        "id": "rubber-pro-nitro-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/rubber-pro-nitro-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 10,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "pneu-pretinho-nitro",
+    "name": "Pneu Pretinho Nitro",
+    "category": "Pneus e borrachas",
+    "variants": [
+      {
+        "id": "pneu-pretinho-nitro-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/pneu-pretinho-nitro-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 10,
+        "imageMethod": "original"
+      },
+      {
+        "id": "pneu-pretinho-nitro-5-l",
+        "label": "5 L",
+        "image": "/images/products/pneu-pretinho-nitro-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 10,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "minux-zacs",
+    "name": "Minux Zacs",
+    "category": "Pneus e borrachas",
+    "variants": [
+      {
+        "id": "minux-zacs-1-l",
+        "label": "1 L",
+        "image": "/images/products/minux-zacs-1-l.webp",
+        "status": "catalog",
+        "sourcePage": 10,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "dimension-9h",
+    "name": "Dimension 9H",
+    "category": "Vitrificadores e revestimentos",
+    "variants": [
+      {
+        "id": "dimension-9h-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/dimension-9h-apresentacao-sob-consulta.webp",
+        "status": "restock",
+        "sourcePage": 11,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "dimension-7h",
+    "name": "Dimension 7H",
+    "category": "Vitrificadores e revestimentos",
+    "variants": [
+      {
+        "id": "dimension-7h-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/dimension-7h-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 11,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "wheels",
+    "name": "Wheels",
+    "category": "Vitrificadores e revestimentos",
+    "variants": [
+      {
+        "id": "wheels-revestimento-ceramico-para-alta-temperatura",
+        "label": "Revestimento cerâmico para alta temperatura",
+        "image": "/images/products/wheels-revestimento-ceramico-para-alta-temperatura.webp",
+        "status": "catalog",
+        "sourcePage": 11,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "soft-touch",
+    "name": "Soft Touch",
+    "category": "Vitrificadores e revestimentos",
+    "variants": [
+      {
+        "id": "soft-touch-selante-ceramico",
+        "label": "Selante cerâmico",
+        "image": "/images/products/soft-touch-selante-ceramico.webp",
+        "status": "catalog",
+        "sourcePage": 11,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "v-leather-pro",
+    "name": "V-Leather Pro",
+    "category": "Vitrificadores e revestimentos",
+    "variants": [
+      {
+        "id": "v-leather-pro-50-ml",
+        "label": "50 ml",
+        "image": "/images/products/v-leather-pro-50-ml.webp",
+        "status": "catalog",
+        "sourcePage": 11,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "v-light",
+    "name": "V-Light",
+    "category": "Vitrificadores e revestimentos",
+    "variants": [
+      {
+        "id": "v-light-20-ml",
+        "label": "20 ml",
+        "image": "/images/products/v-light-20-ml.webp",
+        "status": "catalog",
+        "sourcePage": 11,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "v-paint",
+    "name": "V-Paint",
+    "category": "Vitrificadores e revestimentos",
+    "variants": [
+      {
+        "id": "v-paint-20-ml",
+        "label": "20 ml",
+        "image": "/images/products/v-paint-20-ml.webp",
+        "status": "restock",
+        "sourcePage": 11,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "v-plastic",
+    "name": "V-Plastic",
+    "category": "Vitrificadores e revestimentos",
+    "variants": [
+      {
+        "id": "v-plastic-20-ml",
+        "label": "20 ml",
+        "image": "/images/products/v-plastic-20-ml.webp",
+        "status": "catalog",
+        "sourcePage": 11,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "glass-coat-h7",
+    "name": "Glass Coat H7",
+    "category": "Vitrificadores e revestimentos",
+    "variants": [
+      {
+        "id": "glass-coat-h7-27-ml",
+        "label": "27 ml",
+        "image": "/images/products/glass-coat-h7-27-ml.webp",
+        "status": "restock",
+        "sourcePage": 11,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "graphene-coating-9h-nobrecar",
+    "name": "Graphene Coating 9H Nobrecar",
+    "category": "Vitrificadores e revestimentos",
+    "variants": [
+      {
+        "id": "graphene-coating-9h-nobrecar-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/graphene-coating-9h-nobrecar-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 12,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "nano-one",
+    "name": "Nano One",
+    "category": "Vitrificadores e revestimentos",
+    "variants": [
+      {
+        "id": "nano-one-50-ml",
+        "label": "50 ml",
+        "image": "/images/products/nano-one-50-ml.webp",
+        "status": "catalog",
+        "sourcePage": 12,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "tok-final",
+    "name": "Tok Final",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "tok-final-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/tok-final-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 13,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "cera-brilho",
+    "name": "Cera Brilho",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "cera-brilho-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/cera-brilho-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 13,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "step-3",
+    "name": "Step 3",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "step-3-cera-liquida-finalizadora",
+        "label": "Cera líquida finalizadora",
+        "image": "/images/products/step-3-cera-liquida-finalizadora.webp",
+        "status": "catalog",
+        "sourcePage": 13,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "blend-spray",
+    "name": "Blend Spray",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "blend-spray-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/blend-spray-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 13,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "quickd-quick-detailer",
+    "name": "QuickD Quick Detailer",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "quickd-quick-detailer-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/quickd-quick-detailer-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 13,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "sio2-pro",
+    "name": "SiO2-Pro",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "sio2-pro-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/sio2-pro-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 13,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "all-colors-carnauba",
+    "name": "All Colors Carnaúba",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "all-colors-carnauba-100-g",
+        "label": "100 g",
+        "image": "/images/products/all-colors-carnauba-100-g.webp",
+        "status": "catalog",
+        "sourcePage": 13,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "dark-black",
+    "name": "Dark Black",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "dark-black-100-g",
+        "label": "100 g",
+        "image": "/images/products/dark-black-100-g.webp",
+        "status": "catalog",
+        "sourcePage": 13,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "luxury-gloss",
+    "name": "Luxury Gloss",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "luxury-gloss-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/luxury-gloss-500-ml.webp",
+        "status": "restock",
+        "sourcePage": 13,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "nc-cut-select-nobrecar",
+    "name": "NC Cut Select Nobrecar",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "nc-cut-select-nobrecar-1-kg",
+        "label": "1 kg",
+        "image": "/images/products/nc-cut-select-nobrecar-1-kg.webp",
+        "status": "catalog",
+        "sourcePage": 14,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "nc-technology",
+    "name": "NC Technology",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "nc-technology-1-kg",
+        "label": "1 kg",
+        "image": "/images/products/nc-technology-1-kg.webp",
+        "status": "catalog",
+        "sourcePage": 14,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "cera-express",
+    "name": "Cera Express",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "cera-express-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/cera-express-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 14,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "atomic-paste-cadillac",
+    "name": "Atomic Paste Cadillac",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "atomic-paste-cadillac-100-g-com-aplicador",
+        "label": "100 g com aplicador",
+        "image": "/images/products/atomic-paste-cadillac-100-g-com-aplicador.webp",
+        "status": "catalog",
+        "sourcePage": 14,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "kit-risco-zero-cadillac",
+    "name": "Kit Risco Zero Cadillac",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "kit-risco-zero-cadillac-corte-refino-e-lustro",
+        "label": "Corte, refino e lustro",
+        "image": "/images/products/kit-risco-zero-cadillac-corte-refino-e-lustro.webp",
+        "status": "catalog",
+        "sourcePage": 14,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "composto-polidor-3-em-1",
+    "name": "Composto polidor 3 em 1",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "composto-polidor-3-em-1-1-l",
+        "label": "1 L",
+        "image": "/images/products/composto-polidor-3-em-1-1-l.webp",
+        "status": "catalog",
+        "sourcePage": 14,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "max-blend-nitro",
+    "name": "Max Blend Nitro",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "max-blend-nitro-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/max-blend-nitro-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 14,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "hydro-blend-nitro",
+    "name": "Hydro Blend Nitro",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "hydro-blend-nitro-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/hydro-blend-nitro-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 14,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "massa-de-polir-vintex",
+    "name": "Massa de polir Vintex",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "massa-de-polir-vintex-500-ml",
+        "label": "500 ml",
+        "image": "/images/products/massa-de-polir-vintex-500-ml.webp",
+        "status": "catalog",
+        "sourcePage": 14,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "super-cera-vintex",
+    "name": "Super Cera Vintex",
+    "category": "Ceras e massas de polir",
+    "variants": [
+      {
+        "id": "super-cera-vintex-1-5-l",
+        "label": "1,5 L",
+        "image": "/images/products/super-cera-vintex-1-5-l.webp",
+        "status": "catalog",
+        "sourcePage": 15,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "la-risco-zero",
+    "name": "Lã Risco Zero",
+    "category": "Boinas",
+    "variants": [
+      {
+        "id": "la-risco-zero-5-5-sem-interface",
+        "label": "5,5” — sem interface",
+        "image": "/images/products/la-risco-zero-5-5-sem-interface.webp",
+        "status": "catalog",
+        "sourcePage": 16,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "espuma-preta",
+    "name": "Espuma preta",
+    "category": "Boinas",
+    "variants": [
+      {
+        "id": "espuma-preta-5-lustro-superlustro",
+        "label": "5” — lustro/superlustro",
+        "image": "/images/products/espuma-preta-5-lustro-superlustro.webp",
+        "status": "catalog",
+        "sourcePage": 16,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "la-natural-preta",
+    "name": "Lã natural preta",
+    "category": "Boinas",
+    "variants": [
+      {
+        "id": "la-natural-preta-5-corte-pesado",
+        "label": "5” — corte pesado",
+        "image": "/images/products/la-natural-preta-5-corte-pesado.webp",
+        "status": "catalog",
+        "sourcePage": 16,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "jeans-voxer-branca",
+    "name": "Jeans Voxer branca",
+    "category": "Boinas",
+    "variants": [
+      {
+        "id": "jeans-voxer-branca-5-corte",
+        "label": "5” — corte",
+        "image": "/images/products/jeans-voxer-branca-5-corte.webp",
+        "status": "catalog",
+        "sourcePage": 16,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "lustro-preta-zacs",
+    "name": "Lustro preta Zacs",
+    "category": "Boinas",
+    "variants": [
+      {
+        "id": "lustro-preta-zacs-5",
+        "label": "5”",
+        "image": "/images/products/lustro-preta-zacs-5.webp",
+        "status": "catalog",
+        "sourcePage": 16,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "refino-laranja-zacs",
+    "name": "Refino laranja Zacs",
+    "category": "Boinas",
+    "variants": [
+      {
+        "id": "refino-laranja-zacs-5",
+        "label": "5”",
+        "image": "/images/products/refino-laranja-zacs-5.webp",
+        "status": "catalog",
+        "sourcePage": 16,
+        "imageMethod": "original"
+      },
+      {
+        "id": "refino-laranja-zacs-6",
+        "label": "6”",
+        "image": "/images/products/refino-laranja-zacs-6.webp",
+        "status": "catalog",
+        "sourcePage": 17,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "corte-vinho-zacs",
+    "name": "Corte vinho Zacs",
+    "category": "Boinas",
+    "variants": [
+      {
+        "id": "corte-vinho-zacs-5",
+        "label": "5”",
+        "image": "/images/products/corte-vinho-zacs-5.webp",
+        "status": "catalog",
+        "sourcePage": 16,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "voxer-verde",
+    "name": "Voxer verde",
+    "category": "Boinas",
+    "variants": [
+      {
+        "id": "voxer-verde-6-corte-pesado",
+        "label": "6” — corte pesado",
+        "image": "/images/products/voxer-verde-6-corte-pesado.webp",
+        "status": "catalog",
+        "sourcePage": 16,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "voxer-de-la-com-esponja",
+    "name": "Voxer de lã com esponja",
+    "category": "Boinas",
+    "variants": [
+      {
+        "id": "voxer-de-la-com-esponja-6",
+        "label": "6”",
+        "image": "/images/products/voxer-de-la-com-esponja-6.webp",
+        "status": "catalog",
+        "sourcePage": 16,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "boinas-lincoln",
+    "name": "Boinas Lincoln",
+    "category": "Boinas",
+    "variants": [
+      {
+        "id": "boinas-lincoln-modelos-sob-consulta",
+        "label": "Modelos sob consulta",
+        "image": "/images/products/boinas-lincoln-modelos-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 17,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "pano-de-microfibra-zacs",
+    "name": "Pano de microfibra Zacs",
+    "category": "Flanelas, toalhas e luvas",
+    "variants": [
+      {
+        "id": "pano-de-microfibra-zacs-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/pano-de-microfibra-zacs-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 18,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "pano-cinza-nitro",
+    "name": "Pano cinza Nitro",
+    "category": "Flanelas, toalhas e luvas",
+    "variants": [
+      {
+        "id": "pano-cinza-nitro-50-90-cm-400-gsm",
+        "label": "50 × 90 cm — 400 GSM",
+        "image": "/images/products/pano-cinza-nitro-50-90-cm-400-gsm.webp",
+        "status": "catalog",
+        "sourcePage": 18,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "pano-nitro",
+    "name": "Pano Nitro",
+    "category": "Flanelas, toalhas e luvas",
+    "variants": [
+      {
+        "id": "pano-nitro-60-90-cm-600-gsm",
+        "label": "60 × 90 cm — 600 GSM",
+        "image": "/images/products/pano-nitro-60-90-cm-600-gsm.webp",
+        "status": "catalog",
+        "sourcePage": 18,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "pano-magico-limpa-vidros",
+    "name": "Pano mágico limpa-vidros",
+    "category": "Flanelas, toalhas e luvas",
+    "variants": [
+      {
+        "id": "pano-magico-limpa-vidros-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/pano-magico-limpa-vidros-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 18,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "luva-de-microfibra-dupla-acao-zacs",
+    "name": "Luva de microfibra dupla ação Zacs",
+    "category": "Flanelas, toalhas e luvas",
+    "variants": [
+      {
+        "id": "luva-de-microfibra-dupla-acao-zacs-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/luva-de-microfibra-dupla-acao-zacs-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 18,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "toalha-db-towel-glass-cinza",
+    "name": "Toalha DB Towel Glass cinza",
+    "category": "Flanelas, toalhas e luvas",
+    "variants": [
+      {
+        "id": "toalha-db-towel-glass-cinza-40-40-cm-320-gms-catalogo",
+        "label": "40 × 40 cm — 320 GMS (catálogo)",
+        "image": "/images/products/toalha-db-towel-glass-cinza-40-40-cm-320-gms-catalogo.webp",
+        "status": "catalog",
+        "sourcePage": 18,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "aplicador-de-espuma-vonixx",
+    "name": "Aplicador de espuma Vonixx",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "aplicador-de-espuma-vonixx-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/aplicador-de-espuma-vonixx-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 19,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "kit-aplicadores-de-pneus-vintex",
+    "name": "Kit aplicadores de pneus Vintex",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "kit-aplicadores-de-pneus-vintex-2-unidades",
+        "label": "2 unidades",
+        "image": "/images/products/kit-aplicadores-de-pneus-vintex-2-unidades.webp",
+        "status": "catalog",
+        "sourcePage": 19,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "clay-bar-pad-vonixx",
+    "name": "Clay Bar Pad Vonixx",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "clay-bar-pad-vonixx-7-12-2-5-cm",
+        "label": "7 × 12 × 2,5 cm",
+        "image": "/images/products/clay-bar-pad-vonixx-7-12-2-5-cm.webp",
+        "status": "catalog",
+        "sourcePage": 19,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "escova-para-corrente-de-moto",
+    "name": "Escova para corrente de moto",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "escova-para-corrente-de-moto-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/escova-para-corrente-de-moto-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 19,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "rodo-de-silicone-multiuso",
+    "name": "Rodo de silicone multiuso",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "rodo-de-silicone-multiuso-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/rodo-de-silicone-multiuso-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 19,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "aromatizantes",
+    "name": "Aromatizantes",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "aromatizantes-aromas-sob-consulta",
+        "label": "Aromas sob consulta",
+        "image": "/images/products/aromatizantes-aromas-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 19,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "escova-para-furos-de-rodas-pepino",
+    "name": "Escova para furos de rodas “Pepino”",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "escova-para-furos-de-rodas-pepino-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/escova-para-furos-de-rodas-pepino-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 19,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "pincel-de-detalhamento-externo-medio",
+    "name": "Pincel de detalhamento externo médio",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "pincel-de-detalhamento-externo-medio-no-14",
+        "label": "Nº 14",
+        "image": "/images/products/pincel-de-detalhamento-externo-medio-no-14.webp",
+        "status": "catalog",
+        "sourcePage": 19,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "pincel-de-detalhamento-interno-suave",
+    "name": "Pincel de detalhamento interno suave",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "pincel-de-detalhamento-interno-suave-no-14",
+        "label": "Nº 14",
+        "image": "/images/products/pincel-de-detalhamento-interno-suave-no-14.webp",
+        "status": "catalog",
+        "sourcePage": 19,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "glaco-big",
+    "name": "Glaco Big",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "glaco-big-120-ml",
+        "label": "120 ml",
+        "image": "/images/products/glaco-big-120-ml.webp",
+        "status": "catalog",
+        "sourcePage": 20,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "kit-universal-ppf-clear",
+    "name": "Kit universal PPF Clear",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "kit-universal-ppf-clear-quinas-e-conchas",
+        "label": "Quinas e conchas",
+        "image": "/images/products/kit-universal-ppf-clear-quinas-e-conchas.webp",
+        "status": "catalog",
+        "sourcePage": 20,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "kit-ppf-de-soleira",
+    "name": "Kit PPF de soleira",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "kit-ppf-de-soleira-4-portas-1-5-m-8-cm",
+        "label": "4 portas — 1,5 m × 8 cm",
+        "image": "/images/products/kit-ppf-de-soleira-4-portas-1-5-m-8-cm.webp",
+        "status": "catalog",
+        "sourcePage": 20,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "splash-cristalizador-de-vidros",
+    "name": "Splash cristalizador de vidros",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "splash-cristalizador-de-vidros-10-ml",
+        "label": "10 ml",
+        "image": "/images/products/splash-cristalizador-de-vidros-10-ml.webp",
+        "status": "catalog",
+        "sourcePage": 20,
+        "imageMethod": "original"
+      }
+    ],
+    "notes": "O catálogo indica 10 ml; a embalagem fotografada informa 50 ml. Confirme a apresentação com a equipe."
+  },
+  {
+    "id": "clay-bar-cadillac",
+    "name": "Clay Bar Cadillac",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "clay-bar-cadillac-50-g",
+        "label": "50 g",
+        "image": "/images/products/clay-bar-cadillac-50-g.webp",
+        "status": "catalog",
+        "sourcePage": 20,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "aplicador-de-microfibra",
+    "name": "Aplicador de microfibra",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "aplicador-de-microfibra-com-encaixe-para-a-mao",
+        "label": "Com encaixe para a mão",
+        "image": "/images/products/aplicador-de-microfibra-com-encaixe-para-a-mao.webp",
+        "status": "catalog",
+        "sourcePage": 20,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "escova-aplicadora-de-cerdas-macias",
+    "name": "Escova aplicadora de cerdas macias",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "escova-aplicadora-de-cerdas-macias-6-7-cm",
+        "label": "6 × 7 cm",
+        "image": "/images/products/escova-aplicadora-de-cerdas-macias-6-7-cm.webp",
+        "status": "catalog",
+        "sourcePage": 20,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "escova-de-limpeza",
+    "name": "Escova de limpeza",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "escova-de-limpeza-11-5-5-5-cm",
+        "label": "11,5 × 5,5 cm",
+        "image": "/images/products/escova-de-limpeza-11-5-5-5-cm.webp",
+        "status": "catalog",
+        "sourcePage": 20,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "jogo-de-escovas-zacs",
+    "name": "Jogo de escovas Zacs",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "jogo-de-escovas-zacs-3-unidades-nylon-aco-e-latao",
+        "label": "3 unidades — nylon, aço e latão",
+        "image": "/images/products/jogo-de-escovas-zacs-3-unidades-nylon-aco-e-latao.webp",
+        "status": "catalog",
+        "sourcePage": 20,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "pulverizador-manual",
+    "name": "Pulverizador manual",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "pulverizador-manual-1-l",
+        "label": "1 L",
+        "image": "/images/products/pulverizador-manual-1-l.webp",
+        "status": "catalog",
+        "sourcePage": 21,
+        "imageMethod": "original"
+      },
+      {
+        "id": "pulverizador-manual-450-ml",
+        "label": "450 ml",
+        "image": "/images/products/pulverizador-manual-450-ml.webp",
+        "status": "catalog",
+        "sourcePage": 21,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "snow-foam-bjb-equipamentos",
+    "name": "Snow Foam BJB Equipamentos",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "snow-foam-bjb-equipamentos-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/snow-foam-bjb-equipamentos-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 21,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "fita-automotiva-verde-zacs",
+    "name": "Fita automotiva verde Zacs",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "fita-automotiva-verde-zacs-18-mm-40-m-80-c-catalogo",
+        "label": "18 mm × 40 m — 80 °C (catálogo)",
+        "image": "/images/products/fita-automotiva-verde-zacs-18-mm-40-m-80-c-catalogo.webp",
+        "status": "catalog",
+        "sourcePage": 21,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "pistola-de-pintura-h-2000-gorillaz",
+    "name": "Pistola de pintura H-2000 Gorillaz",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "pistola-de-pintura-h-2000-gorillaz-apresentacao-sob-consulta",
+        "label": "Apresentação sob consulta",
+        "image": "/images/products/pistola-de-pintura-h-2000-gorillaz-apresentacao-sob-consulta.webp",
+        "status": "catalog",
+        "sourcePage": 21,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "kit-aplicadores-de-espuma-razux",
+    "name": "Kit aplicadores de espuma Razux",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "kit-aplicadores-de-espuma-razux-2-unidades",
+        "label": "2 unidades",
+        "image": "/images/products/kit-aplicadores-de-espuma-razux-2-unidades.webp",
+        "status": "catalog",
+        "sourcePage": 21,
+        "imageMethod": "original"
+      }
+    ]
+  },
+  {
+    "id": "pulverizador-de-compressao-manual",
+    "name": "Pulverizador de compressão manual",
+    "category": "Acessórios e equipamentos",
+    "variants": [
+      {
+        "id": "pulverizador-de-compressao-manual-2-l",
+        "label": "2 L",
+        "image": "/images/products/pulverizador-de-compressao-manual-2-l.webp",
+        "status": "catalog",
+        "sourcePage": 21,
+        "imageMethod": "original"
+      }
+    ]
+  }
+]

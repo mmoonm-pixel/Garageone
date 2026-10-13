@@ -1,0 +1,59 @@
+.route-dialog {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: min(940px, calc(100% - 40px));
+  max-width: none;
+  max-height: calc(100dvh - 40px);
+  padding: 30px;
+  overflow: auto;
+  overscroll-behavior: contain;
+  border: 1px solid #ffffff32;
+  border-radius: 24px;
+  color: #fff;
+  background: radial-gradient(ellipse at 10% 0, #ffffff08, transparent 40%), #181818d9;
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  box-shadow: inset 0 1px 0 #ffffff1a, 0 24px 80px #0005;
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff3b transparent;
+}
+.route-dialog::backdrop { background: #00000080; backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); }
+.route-dialog-close-bar { position: sticky; top: 16px; height: 0; z-index: 4; display: flex; justify-content: flex-end; pointer-events: none; }
+.route-dialog .route-dialog-close { position: relative; top: 0; right: 0; flex-shrink: 0; pointer-events: auto; }
+.route-dialog-heading { padding-right: 48px; }
+.route-dialog-heading h2 { margin: 0 0 10px; font-size: clamp(23px, 2.4vw, 32px); line-height: 1.15; }
+.route-dialog-heading p { margin: 0; color: #c1c1c1; font-size: 12px; line-height: 1.7; }
+.route-dialog .premium-map-directions { padding: 22px 0 0; border: 0; background: transparent; }
+.route-dialog .premium-map-destination { margin: 0 0 18px; }
+.route-dialog .premium-map-destination strong { display: block; color: #fff; font-size: 13px; font-weight: 600; }
+.route-dialog .premium-map-mode { margin-top: 16px; }
+.route-dialog .premium-map-mode select { color: #fff; background: #181818; border: 1px solid #ffffff30; border-radius: 10px; min-height: 44px; padding: 10px 12px; font-size: 12px; width: min(240px, 100%); }
+.route-dialog .premium-map-mode select:focus-visible { outline: 1px solid #fff; outline-offset: 2px; }
+.route-preview { margin-top: 20px; scroll-margin-block: 20px; }
+.route-preview:focus-visible { outline: 1px solid #fff; outline-offset: 3px; }
+.route-preview .premium-map, .route-preview .premium-map-stage { min-height: 340px; height: 340px; }
+.route-preview .premium-map-locate { display: none; }
+.route-preview .premium-map.has-open-popup .leaflet-control-zoom { visibility: visible; pointer-events: auto; }
+.route-preview .premium-map-service-credits { margin-top: 10px; }
+.route-instructions { margin-top: 18px; border-top: 1px solid #ffffff1a; padding-top: 12px; }
+.route-instructions summary { cursor: pointer; font-size: 12px; min-height: 36px; padding-block: 7px; }
+.route-instructions ol { padding-left: 21px; margin: 12px 0 0; font-size: 11px; color: #ccc; }
+.route-instructions li { padding: 7px 0 7px 3px; line-height: 1.7; }
+.route-instructions li span { color: #a3a3a3; margin-left: 8px; white-space: nowrap; }
+@media (max-width: 767px) {
+  .route-dialog { width: calc(100% - 24px); max-height: calc(100dvh - 24px); padding: 23px 18px; border-radius: 20px; }
+  .route-dialog-heading { padding-right: 35px; }
+  .route-dialog-heading h2 { font-size: clamp(21px, 6vw, 26px); }
+  .route-dialog-heading p { font-size: 11px; }
+  .route-dialog-close-bar { top: 10px; }
+  .route-dialog .premium-map-directions { padding-top: 20px; }
+  .route-dialog .premium-map-mode select { font-size: 16px; }
+  .route-preview .premium-map, .route-preview .premium-map-stage { min-height: 280px; height: 280px; }
+}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .route-dialog { background: #181818f2; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .route-dialog { transform: none; scroll-behavior: auto; }
+}

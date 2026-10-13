@@ -1,0 +1,36 @@
+/* Scoped refinements; existing desktop hero, brand assets and lens material intact. */
+#root .accent-period { color: var(--red); }
+.mobile-video-hero { position: relative; display: flex; align-items: flex-end; min-height: clamp(580px,calc(100svh - var(--header-height)),880px); padding: 28px 16px; isolation: isolate; overflow: hidden; }
+.mobile-video-hero::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg,#08080810 35%,#08080855 100%); pointer-events: none; z-index: 0; }
+.mobile-video-hero .mobile-hero-content { position: relative; z-index: 1; width: 100%; padding: 0 4px; }
+.mobile-hero-content h2 { font-size: clamp(27px,7.5vw,36px); line-height: 1.12; margin: 0 0 22px; }
+.mobile-hero-actions { display: flex; flex-direction: column; gap: 10px; }
+.mobile-hero-actions .btn { width: 100%; min-height: 48px; padding: 12px 14px; white-space: normal; font-size: 11px; }
+.info-marquee-wrapper { overflow: hidden; width: 100%; }
+.info-marquee-wrapper .info-marquee { width: 100%; margin: 0; transform: none; }
+.info-marquee-wrapper .info-marquee-item { position: relative; border-right: 0; }
+.info-marquee-divider { position: absolute; right: 0; color: #ffffff55; font-weight: 400; }
+:is(#servicos,#motos) .service-card-actions { justify-content: center; }
+:is(#servicos,#motos) .service-cta { display: flex; align-items: center; justify-content: center; width: 100%; min-height: 42px; gap: 10px; padding: 10px 14px; line-height: 1.3; border-radius: 999px; }
+.premium-map-car.fisheye-glass,.premium-map-marker[aria-expanded="true"] .premium-map-car.fisheye-glass { color: var(--red); }
+.premium-map-locate svg,.premium-map-route svg,.route-panel-action svg { color: var(--red); }
+.premium-map-route { display: inline-flex; align-items: center; justify-content: center; gap: 9px; }
+.premium-map-route[aria-expanded="true"] { border-color: #e65c1a66; }
+.route-navigation-actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
+.route-resolved-origin { font-size: 11px; color: #b8b8b8; margin: 14px 0; }
+.premium-map-stage-actions { flex-wrap: wrap; }
+@media (max-width:767px) { :is(#servicos,#motos) .service-cta { min-height: 44px; } .premium-map-address-search { flex-direction: column; align-items: stretch; } .premium-map-address-search .route-panel-action { justify-content: center; min-height: 44px; } .premium-map-stage-actions { gap: 6px; } }
+.mobile-video-hero .mobile-hero-content h2 { font-size: clamp(27px,7.5vw,36px); line-height: 1.12; }
+
+
+/* The text, confirmed inclusions and CTA share a readable, bottom-aligned panel. */
+#root :is(#servicos,#motos) .service-card { height: 390px; aspect-ratio: auto; }
+#root :is(#servicos,#motos) .service-panel { bottom: 14px; display: flex; flex-direction: column; }
+#root :is(#servicos,#motos) .service-inclusions { list-style: none; margin: 3px 0 13px; padding: 0; display: grid; gap: 5px; color: #dedede; font-size: 10.5px; line-height: 1.45; }
+.service-inclusions li { padding-left: 10px; position: relative; }
+.service-inclusions li::before { content: '•'; position: absolute; left: 0; color: #b8b8b8; }
+#root #servicos .service-cta { justify-content: center; align-items: center; gap: 10px; padding: 10px 14px; height: 44px; line-height: 1; margin: 0; transform: none; }
+#root #servicos .service-cta svg { width: 15px; height: 15px; flex: 0 0 15px; margin: 0; transform: none; }
+#root #servicos .service-cta:hover svg { transform: none; }
+
+#root #servicos .service-cta > span { margin: 0; padding: 0; line-height: 1; transform: none; position: static; }

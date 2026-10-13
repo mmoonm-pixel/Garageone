@@ -1,0 +1,91 @@
+/* A smaller foreground leaves the institutional film visible around it. */
+.booking-video-section .booking-content {
+  min-height: 620px;
+  padding-block: 52px;
+}
+.booking-video-section .booking-video { filter: none; transform: none; }
+.booking-video-section::after { background: #00000038; }
+.booking-video-section .booking-glass {
+  width: 480px;
+  max-width: 100%;
+  padding: 28px;
+  border-radius: 22px;
+  background: #18181880;
+  border: 1px solid #ffffff30;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: inset 0 1px 0 #ffffff15, 0 12px 36px #00000020;
+}
+.booking-video-section .booking-glass h2 {
+  font-size: clamp(26px, 2.25vw, 32px);
+  line-height: 1.16;
+  margin: 0 0 16px;
+}
+.booking-video-section .booking-glass p {
+  max-width: none;
+  margin-bottom: 22px;
+  font-size: 12px;
+  line-height: 1.8;
+  color: #e4e4e4;
+}
+.booking-video-section .booking-actions { flex-wrap: wrap; gap: 10px; }
+.booking-video-section .booking-actions .btn {
+  min-height: 44px;
+  padding: 11px 15px;
+  font-size: 10px;
+  gap: 8px;
+}
+.menu-toggle.fisheye-glass { position: relative; }
+.fisheye-glass--icon { border-radius: 50%; }
+.site-header .mobile-nav .mobile-contact.btn {
+  width: fit-content;
+  padding: 12px 18px;
+  font-size: 12px;
+  min-height: 44px;
+}
+.google-reviews .text-link.fisheye-glass { padding: 12px 17px; min-height: 44px; }
+.compact-footer { padding-top: 42px; }
+.compact-footer .compact-footer-grid {
+  grid-template-columns: minmax(220px, .9fr) minmax(0, 1.1fr);
+  gap: 48px;
+  padding-bottom: 30px;
+  align-items: start;
+}
+.compact-footer .brand-footer img { width: 215px; max-height: 100px; }
+.compact-footer .footer-identity { grid-column: auto; display: block; margin-bottom: 0; }
+.compact-footer .footer-identity p { margin-top: 15px; max-width: 280px; color: #a3a3a3; }
+.compact-footer-details address { font-style: normal; font-size: 12px; line-height: 1.8; color: #d1d1d1; max-width: 480px; }
+.compact-footer-details > p { margin: 9px 0 18px; font-size: 11px; color: #a3a3a3; }
+.compact-footer-contact { display: flex; flex-wrap: wrap; gap: 10px 24px; font-size: 11px; color: #d1d1d1; }
+.compact-footer-contact a { display: inline-flex; align-items: center; gap: 8px; min-height: 32px; }
+.compact-footer-contact a:hover { color: #fff; }
+.compact-footer-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 17px; }
+.compact-footer-actions .btn { min-height: 44px; font-size: 10px; padding: 11px 17px; gap: 8px; }
+.compact-footer-navigation { display: flex; flex-wrap: wrap; gap: 5px 24px; padding: 15px 0; border-top: 1px solid #ffffff14; font-size: 10px; color: #a3a3a3; }
+.compact-footer-navigation a { display: inline-flex; align-items: center; min-height: 32px; }
+.compact-footer-navigation a:hover { color: #fff; }
+.compact-footer .footer-bottom { padding: 18px 72px 24px 0; }
+.compact-footer .back-to-top { min-height: 44px; padding: 10px 16px; gap: 9px; color: #fff; }
+@media (max-width: 767px) {
+  .booking-video-section .booking-content { min-height: 610px; align-items: flex-end; padding-block: 28px; }
+  .booking-video-section .booking-glass { width: 100%; padding: 22px; border-radius: 19px; }
+  .booking-video-section .booking-glass h2 { font-size: clamp(24px, 6.6vw, 28px); }
+  .booking-video-section .booking-glass p { font-size: 11px; margin-bottom: 18px; }
+  .booking-video-section .booking-actions { flex-direction: column; gap: 8px; }
+  .booking-video-section .booking-actions .btn { width: 100%; font-size: 11px; }
+  .compact-footer { padding-top: 32px; }
+  .compact-footer .compact-footer-grid { grid-template-columns: 1fr; gap: 24px; padding-bottom: 24px; }
+  .compact-footer .brand-footer img { width: 165px; max-height: 82px; }
+  .compact-footer .footer-identity p { max-width: 310px; }
+  .compact-footer-details address { font-size: 11px; }
+  .compact-footer-navigation { gap: 5px 20px; }
+  .compact-footer .footer-bottom { gap: 14px; padding-right: 0; }
+}
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .booking-video-section .booking-glass { background: #181818eb; }
+}
+@media (max-width: 359px) {
+  .hero-actions .btn.fisheye-glass { padding-inline: 6px; gap: 5px; }
+  .hero-actions .btn.fisheye-glass:first-child { flex: 1.3; }
+  .hero-actions .btn.fisheye-glass svg { width: 16px; height: 16px; }
+}

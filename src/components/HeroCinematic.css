@@ -1,0 +1,103 @@
+/* Scale never exceeds 1: every edge of the supplied artwork remains in the frame. */
+.hero-image-area.hero-cinematic {
+  position: relative;
+  opacity: 0;
+  transition: opacity 700ms cubic-bezier(.22, 1, .36, 1);
+}
+.hero-image-area.hero-cinematic.is-loaded,
+.hero-image-area.hero-cinematic[data-hero-motion="reduced"] { opacity: 1; }
+.hero-cinematic .hero-camera-frame {
+  position: absolute;
+  inset: 0;
+  transform-origin: 50% 50%;
+  animation: hero-camera-drift 48s cubic-bezier(.45, 0, .55, 1) infinite;
+  animation-play-state: paused;
+}
+.hero-cinematic .hero-body-light-mask,
+.hero-cinematic .hero-studio-light {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  user-select: none;
+}
+/* This outline avoids the embedded title, logo and the large lower caption. */
+.hero-cinematic .hero-body-light-mask {
+  overflow: hidden;
+  clip-path: polygon(14% 55%, 18% 46%, 31% 41%, 46% 33%, 57% 30%, 65% 33%, 77% 42%, 83% 49%, 84% 61%, 81% 66%, 63% 65%, 55% 64%, 42% 65%, 28% 68%, 15% 65%);
+}
+.hero-cinematic .hero-body-reflection,
+.hero-cinematic .hero-body-depth {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  animation-play-state: paused;
+}
+.hero-cinematic .hero-body-reflection {
+  inset-inline: -25%;
+  background: radial-gradient(ellipse 9% 25% at 45% 45%, rgb(255 255 255 / 24%), rgb(255 255 255 / 7%) 38%, transparent 72%);
+  opacity: .05;
+  animation: hero-body-reflection 31s cubic-bezier(.45, 0, .55, 1) infinite;
+  animation-play-state: paused;
+}
+.hero-cinematic .hero-body-depth {
+  background: radial-gradient(ellipse 24% 7% at 59% 48%, rgb(255 255 255 / 30%), transparent 75%);
+  opacity: .015;
+  animation: hero-body-depth 23s cubic-bezier(.45, 0, .55, 1) infinite;
+  animation-play-state: paused;
+}
+.hero-cinematic .hero-studio-light {
+  bottom: 84%;
+  background: radial-gradient(ellipse 1.4% 45% at 71% 75%, rgb(255 255 255 / 50%), transparent 80%), radial-gradient(ellipse 15% 7% at 95% 70%, rgb(255 255 255 / 40%), transparent 80%);
+  opacity: .025;
+  animation: hero-studio-light 19s cubic-bezier(.45, 0, .55, 1) infinite;
+  animation-play-state: paused;
+}
+.hero-cinematic[data-hero-motion="running"] .hero-camera-frame,
+.hero-cinematic[data-hero-motion="running"] .hero-body-reflection,
+.hero-cinematic[data-hero-motion="running"] .hero-body-depth,
+.hero-cinematic[data-hero-motion="running"] .hero-studio-light { animation-play-state: running; will-change: transform, opacity; }
+.hero-cinematic[data-hero-motion="reduced"] .hero-camera-frame { animation: none; transform: none; }
+.hero-cinematic[data-hero-motion="reduced"] .hero-body-light-mask,
+.hero-cinematic[data-hero-motion="reduced"] .hero-studio-light { display: none; }
+
+@keyframes hero-camera-drift {
+  0%, 100% { transform: translate3d(-.025%, .015%, 0) scale(.9988); }
+  32% { transform: translate3d(.008%, -.01%, 0) scale(.9994); }
+  70% { transform: translate3d(0, 0, 0) scale(1); }
+}
+@keyframes hero-body-reflection {
+  0%, 100% { transform: translate3d(-22%, 0, 0); opacity: .025; }
+  38% { transform: translate3d(-3%, -.4%, 0); opacity: .09; }
+  73% { transform: translate3d(20%, .2%, 0); opacity: .04; }
+}
+@keyframes hero-body-depth {
+  0%, 100% { transform: translate3d(0, 0, 0); opacity: .015; }
+  43% { transform: translate3d(1.2%, -.15%, 0); opacity: .07; }
+  76% { transform: translate3d(.35%, .1%, 0); opacity: .04; }
+}
+@keyframes hero-studio-light {
+  0%, 100% { opacity: .025; }
+  41% { opacity: .09; }
+  77% { opacity: .055; }
+}
+@media (max-width: 767px) {
+  .hero-cinematic .hero-body-light-mask {
+    clip-path: polygon(1% 75%, 3% 70%, 14% 66%, 25% 65%, 41% 61%, 51% 60%, 64% 61%, 75% 64%, 86% 68%, 94% 74%, 96% 82%, 87% 87%, 18% 87%, 2% 83%);
+  }
+  .hero-cinematic .hero-body-reflection {
+    background: radial-gradient(ellipse 11% 18% at 45% 73%, rgb(255 255 255 / 24%), rgb(255 255 255 / 7%) 38%, transparent 72%);
+  }
+  .hero-cinematic .hero-body-depth {
+    background: radial-gradient(ellipse 28% 5% at 56% 69%, rgb(255 255 255 / 30%), transparent 75%);
+  }
+  .hero-cinematic .hero-studio-light {
+    bottom: 87%;
+    background: radial-gradient(ellipse 5% 35% at 84% 26%, rgb(255 255 255 / 45%), transparent 80%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-image-area.hero-cinematic { opacity: 1; transition: none; }
+  .hero-cinematic .hero-camera-frame { animation: none; transform: none; }
+  .hero-cinematic .hero-body-light-mask,
+  .hero-cinematic .hero-studio-light { display: none; }
+}
